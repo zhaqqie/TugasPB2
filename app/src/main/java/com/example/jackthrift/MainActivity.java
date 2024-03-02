@@ -109,8 +109,6 @@ public class MainActivity extends AppCompatActivity {
                     struk.append("===========================\n");
                     struk.append("Total: Rp.").append(Total).append("\n");
 
-                    // Display the receipt in a TextView or log it
-                    // Assuming there's a TextView named tvReceipt
                     tvTotal.setText(struk.toString());
 
                 } catch (NumberFormatException e) {
