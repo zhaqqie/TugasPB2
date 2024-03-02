@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:background="#EADFB4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBA834"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Jack Thrifting"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SILAHKAN PILIH BAJU YANG INGIN ANDA BELI!!"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:paddingBottom="15sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--    baris 1-->
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Baju Kaos Hitam"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Baju Kaos Biru"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Baju Kaos Putih"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!--        baris 2-->
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/cbHitam"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="" />
+
+            <CheckBox
+                android:id="@+id/cbBiru"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="" />
+
+            <CheckBox
+                android:id="@+id/cbPutih"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="" />
+
+        </TableRow>
+
+        <!--        baris 3-->
+        <TableRow>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/pngegg"
+                android:tag="gg"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="217dp"
+                android:layout_weight="1"
+                android:src="@drawable/pngegg2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="217dp"
+                android:layout_weight="1"
+                android:src="@drawable/pngegg3" />
+        </TableRow>
+        <!--        baris 4-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Rp.165.000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Rp.150.000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Rp.155.000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+        </TableRow>
+
+        <!--        baris 5-->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=" admin: Rp.2000"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:background="#C3BE94"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=" admin: Rp.2500"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:background="#C3BE94"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=" admin: Rp.3000"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:background="#C3BE94"/>
+
+        </TableRow>
+        <!--        baris6-->
+        <TableRow>
+            <EditText
+                android:id="@+id/etHitam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:hint="jumlah"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/etBiru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:hint="jumlah"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/etPutih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:hint="jumlah"
+                android:gravity="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membership"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:paddingTop="15dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rbAda"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ada"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:background="#D1C23E"/>
+
+        <RadioButton
+            android:id="@+id/rbTidak"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tidak"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:background="#BCB5B5"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Rincian"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="3dp"
+        android:text="Total Harga"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
