@@ -62,11 +62,13 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     struk.append("***RINCIAN HARGA***\n");
 
+                    struk.append("================================\n");
+
                     if (cbHitam.isChecked()) {
                         Hpcs = Integer.parseInt(etHitam.getText().toString().trim());
                         int Htotal = Hpcs * Hharga;
                         int HadmFee = Hpcs * Ahitam;
-                        struk.append("Hitam: ").append(Hpcs).append(" pcs x Rp.").append(Hharga).append(" = Rp").append(Htotal).append(" + Biaya Admin: Rp").append(HadmFee).append("\n");
+                        struk.append("Hitam: ").append(Hpcs).append(" pcs x Rp.").append(Hharga).append(" = Rp").append(Htotal).append("\n");
                         Total += Htotal;
                         adminFee += HadmFee;
                     }
@@ -75,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                         Bpcs = Integer.parseInt(etBiru.getText().toString().trim());
                         int Btotal = Bpcs * Bharga;
                         int BadmFee = Bpcs * Abiru;
-                        struk.append("Biru: ").append(Bpcs).append(" pcs x Rp").append(Bharga).append(" = Rp").append(Btotal).append(" + Biaya Admin: Rp").append(BadmFee).append("\n");
+                        struk.append("Biru: ").append(Bpcs).append(" pcs x Rp.").append(Bharga).append(" = Rp").append(Btotal).append("\n");
                         Total += Btotal;
                         adminFee += BadmFee;
                     }
@@ -84,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                         Ppcs = Integer.parseInt(etPutih.getText().toString().trim());
                         int Ptotal = Ppcs * Pharga;
                         int PadmFee = Ppcs * Aputih;
-                        struk.append("Putih: ").append(Ppcs).append(" pcs x Rp").append(Pharga).append(" = Rp").append(Ptotal).append(" + Biaya Admin: Rp").append(PadmFee).append("\n");
+                        struk.append("Putih: ").append(Ppcs).append(" pcs x Rp.").append(Pharga).append(" = Rp").append(Ptotal).append("\n");
                         Total += Ptotal;
                         adminFee += PadmFee;
                     }
@@ -107,12 +109,13 @@ public class MainActivity extends AppCompatActivity {
                     struk.append("Total Setelah Diskon dan Biaya Admin: Rp.").append(Total).append("\n");
 
                     struk.append("================================\n");
-                    struk.append("Total: Rp.").append(Total).append("\n");
+
+                    struk.append("Total Harga : Rp.").append(Total).append("\n");
 
                     tvTotal.setText(struk.toString());
 
                 } catch (NumberFormatException e) {
-                    tvTotal.setText("SILAHKAN MASUKKAN JUMLAH BAJU YANG INGIN ANDA BELI!!");
+                    tvTotal.setText("SILAHKAN MASUKKAN JUMLAH BAJU KAOS YANG INGIN ANDA BELI!!");
                 }
 
             }
