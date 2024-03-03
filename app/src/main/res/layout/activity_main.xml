@@ -19,12 +19,12 @@
         android:text="Jack Thrifting"
         android:textColor="@color/white"
         android:textSize="30sp"
-        android:textStyle="italic" />
+        android:textStyle="italic"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SILAHKAN PILIH BAJU YANG INGIN ANDA BELI!!"
+        android:text="SILAHKAN PILIH BAJU KAOS YANG INGIN ANDA BELI!!"
         android:textSize="15sp"
         android:textStyle="italic"
         android:paddingBottom="15sp"/>
@@ -70,22 +70,19 @@
                 android:id="@+id/cbHitam"
                 android:layout_width="wrap_content"
                 android:layout_height="41dp"
-                android:layout_weight="1"
-                android:text="" />
+                android:layout_weight="1"/>
 
             <CheckBox
                 android:id="@+id/cbBiru"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="" />
+                android:layout_weight="1"/>
 
             <CheckBox
                 android:id="@+id/cbPutih"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="" />
+                android:layout_weight="1"/>
 
         </TableRow>
 
@@ -95,21 +92,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@drawable/pngegg"
-                android:tag="gg"
-                />
+                android:src="@drawable/pngegg"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="217dp"
                 android:layout_weight="1"
-                android:src="@drawable/pngegg2" />
+                android:src="@drawable/pngegg2"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="217dp"
                 android:layout_weight="1"
-                android:src="@drawable/pngegg3" />
+                android:src="@drawable/pngegg3"/>
         </TableRow>
         <!--        baris 4-->
         <TableRow>
@@ -120,7 +115,7 @@
                 android:text="Rp.165.000"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10sp"/>
+                android:textSize="15sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -129,7 +124,7 @@
                 android:text="Rp.150.000"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10sp"/>
+                android:textSize="15sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
@@ -137,7 +132,7 @@
                 android:text="Rp.155.000"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:textSize="10sp"/>
+                android:textSize="15sp"/>
 
         </TableRow>
 
@@ -150,7 +145,8 @@
                 android:text=" admin: Rp.2000/pcs"
                 android:gravity="center"
                 android:textSize="10sp"
-                android:background="#C3BE94"/>
+                android:background="#C3BE94"
+                android:textStyle="italic"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -159,7 +155,8 @@
                 android:text=" admin: Rp.2500/pcs"
                 android:gravity="center"
                 android:textSize="10sp"
-                android:background="#C3BE94"/>
+                android:background="#C3BE94"
+                android:textStyle="italic"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -168,7 +165,8 @@
                 android:text=" admin: Rp.3000/pcs"
                 android:gravity="center"
                 android:textSize="10sp"
-                android:background="#C3BE94"/>
+                android:background="#C3BE94"
+                android:textStyle="italic"/>
 
         </TableRow>
         <!--        baris6-->
@@ -180,7 +178,8 @@
                 android:layout_weight="1"
                 android:textSize="15sp"
                 android:inputType="number"
-                android:hint="jumlah"
+                android:hint="pcs"
+                android:textStyle="italic"
                 android:gravity="center"/>
 
             <EditText
@@ -190,7 +189,8 @@
                 android:layout_weight="1"
                 android:textSize="15sp"
                 android:inputType="number"
-                android:hint="jumlah"
+                android:hint="pcs"
+                android:textStyle="italic"
                 android:gravity="center"/>
 
             <EditText
@@ -200,8 +200,9 @@
                 android:layout_weight="1"
                 android:textSize="15sp"
                 android:inputType="number"
-                android:hint="jumlah"
-                android:gravity="center" />
+                android:hint="pcs"
+                android:textStyle="italic"
+                android:gravity="center"/>
 
         </TableRow>
 
@@ -232,7 +233,7 @@
             android:textColor="@color/black"
             android:textSize="13sp"
             android:textStyle="normal"
-            android:background="#D1C23E"/>
+            android:background="#E1D24F"/>
 
         <RadioButton
             android:id="@+id/rbTidak"
@@ -254,11 +255,10 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="2dp"
-        android:text="Rincian"
+        android:text="HITUNG TOTAL HARGA"
         android:textColor="@color/white"
         android:textSize="18sp"
-
-        android:textStyle="italic" />
+        android:textStyle="italic"/>
 
     <TextView
         android:id="@+id/tvTotal"
@@ -266,10 +266,10 @@
         android:layout_height="match_parent"
         android:background="@color/white"
         android:padding="3dp"
-        android:text="Total Harga"
+        android:text="Rincian Harga"
         android:textColor="@color/black"
         android:textSize="13sp"
-        android:textStyle="italic" />
+        android:textStyle="italic"/>
 
 
 </LinearLayout>

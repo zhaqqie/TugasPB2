@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 struk.setLength(0);
 
                 try {
-                    struk.append("===Rincian Harga===\n");
+                    struk.append("***RINCIAN HARGA***\n");
 
                     if (cbHitam.isChecked()) {
                         Hpcs = Integer.parseInt(etHitam.getText().toString().trim());
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                         adminFee += PadmFee;
                     }
 
-                    struk.append("===========================\n");
+                    struk.append("================================\n");
 
                     boolean isMember = rbAda.isChecked();
 
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
                     struk.append("Total Setelah Diskon dan Biaya Admin: Rp.").append(Total).append("\n");
 
-                    struk.append("===========================\n");
+                    struk.append("================================\n");
                     struk.append("Total: Rp.").append(Total).append("\n");
 
                     tvTotal.setText(struk.toString());
