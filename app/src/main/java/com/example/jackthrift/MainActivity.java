@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 int Bharga = 150000;
                 int Pharga = 155000;
                 int Ahitam = 2000;
-                int Abiru = 4000;
+                int Abiru = 2500;
                 int Aputih = 3000;
                 double discount = 0;
                 double adminFee = 0;
