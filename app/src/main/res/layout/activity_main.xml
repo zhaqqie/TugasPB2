@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text=" admin: Rp.2000"
+                android:text=" admin: Rp.2000/pcs"
                 android:gravity="center"
                 android:textSize="10sp"
                 android:background="#C3BE94"/>
@@ -156,7 +156,7 @@
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text=" admin: Rp.2500"
+                android:text=" admin: Rp.2500/pcs"
                 android:gravity="center"
                 android:textSize="10sp"
                 android:background="#C3BE94"/>
@@ -165,7 +165,7 @@
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text=" admin: Rp.3000"
+                android:text=" admin: Rp.3000/pcs"
                 android:gravity="center"
                 android:textSize="10sp"
                 android:background="#C3BE94"/>
